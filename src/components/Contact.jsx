@@ -202,7 +202,6 @@ const Contact = () => {
             <motion.div className="footer-signature" whileHover={{ scale: 1.1, rotate: 5 }}>
               <span className="signature">JM</span>
             </motion.div>
-            <p>&copy; 2024 J.M. Mushraf. Crafted with passion and code.</p>
             <motion.button
               className="scroll-to-top"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

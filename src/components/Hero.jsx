@@ -44,7 +44,7 @@ const Hero = () => {
           transition={{ duration: 1, type: "spring", stiffness: 100 }}
         >
           <div className="profile-image">
-            <img src="/Mushraf.png" alt="J.M. Mushraf" />
+            <img src={`${import.meta.env.BASE_URL}Mushraf.png`} alt="J.M. Mushraf" />
             <div className="glow-ring"></div>
           </div>
         </motion.div>
